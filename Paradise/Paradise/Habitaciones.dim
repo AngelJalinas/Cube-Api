@@ -1,0 +1,217 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e959c59f-6639-4fc7-8008-72adc604d25c" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Habitaciones</ID>
+  <Name>Habitaciones</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3282" scrolltop="-4805" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9779" y="13716" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Habitaciones" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3175" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000670c00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Habitaciones" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3282</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4805</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4a9e1358-cf71-4e0b-bfb3-c8c8c25f5f1e">
+    <DataSourceViewID>Paradise DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="6dc017a0-f442-42a2-8d7c-fb540ee9a5a8">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="210a800b-9bd1-4bc4-a6a1-cefbd69441a5">
+      <ID>Habitaciones ID</ID>
+      <Name>Habitaciones ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d9acd6b0-16b6-47d4-bad8-fc3bdb8a0532">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f294b3d2-c1eb-441a-9b59-8eca2179e84b">
+            <TableID>dbo_Dim_Habitaciones</TableID>
+            <ColumnID>Habitaciones_x0020_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ddc012a3-424c-49b7-b937-a27103b65b81">
+          <AttributeID>Tipo Habitacion</AttributeID>
+          <Name>Tipo Habitacion</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4cbc47a2-4360-4ad1-8651-33169398d289">
+          <AttributeID>Capacidad</AttributeID>
+          <Name>Capacidad</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aa7e0d69-7c36-487a-ac07-6caec045c9ed">
+          <AttributeID>Precio Noche</AttributeID>
+          <Name>Precio Noche</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0e017b75-6fe7-4402-85d1-da700ef650b8">
+          <AttributeID>Disponibilidad</AttributeID>
+          <Name>Disponibilidad</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="633deb5d-d11c-4178-9740-a4cd54d54b87">
+      <ID>Tipo Habitacion</ID>
+      <Name>Tipo Habitacion</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="82d27191-7f7b-4512-b13e-82229a753311">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="43fc8aed-dd8b-4055-bd62-4865e844405b">
+            <TableID>dbo_Dim_Habitaciones</TableID>
+            <ColumnID>Tipo_x0020_Habitacion</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="40e8f38a-6ebc-4c60-a734-be28c16a1ce8">
+      <ID>Capacidad</ID>
+      <Name>Capacidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e5c269c-08c1-481c-8078-097b9b7ddb6a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aac3870c-a4d5-4fa5-9481-91d452d79d62">
+            <TableID>dbo_Dim_Habitaciones</TableID>
+            <ColumnID>Capacidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c9634e59-9c55-4f3b-848d-6b5b237ee9fd">
+      <ID>Precio Noche</ID>
+      <Name>Precio Noche</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63b25c30-aee0-4442-b72a-956060384598">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2062a633-3766-49a7-9297-d2912520e4f3">
+            <TableID>dbo_Dim_Habitaciones</TableID>
+            <ColumnID>Precio_x0020_Noche</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9ac8ee50-92aa-4296-a2cf-273f5f298455">
+      <ID>Disponibilidad</ID>
+      <Name>Disponibilidad</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="74a939b6-18a4-47e8-b7fb-c5bb7e397a86">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2073190f-2bf6-4615-a319-b7dae1252c80">
+            <TableID>dbo_Dim_Habitaciones</TableID>
+            <ColumnID>Disponibilidad</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="4d8613d4-524c-4d76-afee-bd06ff214082">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
+      <Levels>
+        <Level dwd:design-time-name="da9eb48a-4f0e-489e-a6d0-3b70b0f4a089">
+          <ID>Habitaciones ID</ID>
+          <Name>Habitaciones ID</Name>
+          <SourceAttributeID>Habitaciones ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5ca7a61e-36e9-4d3e-a0e3-2af1ab358224">
+          <ID>Tipo Habitacion</ID>
+          <Name>Tipo Habitacion</Name>
+          <SourceAttributeID>Tipo Habitacion</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="75cd9f4d-304a-4c2d-b0d9-142cfa7f935b">
+          <ID>Capacidad</ID>
+          <Name>Capacidad</Name>
+          <SourceAttributeID>Capacidad</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="3f671c84-3aa8-47c7-8aa0-6ddd80c86372">
+          <ID>Precio Noche</ID>
+          <Name>Precio Noche</Name>
+          <SourceAttributeID>Precio Noche</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="197b1308-b6ba-45b5-8207-1747d2c7bcfe">
+          <ID>Disponibilidad</ID>
+          <Name>Disponibilidad</Name>
+          <SourceAttributeID>Disponibilidad</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

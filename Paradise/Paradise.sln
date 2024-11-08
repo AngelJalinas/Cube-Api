@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Paradise", "Paradise\Paradise.dwproj", "{F1953002-272C-4185-99C8-88623E34AFAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1953002-272C-4185-99C8-88623E34AFAB}.Development|Default.ActiveCfg = Development
+		{F1953002-272C-4185-99C8-88623E34AFAB}.Development|Default.Build.0 = Development
+		{F1953002-272C-4185-99C8-88623E34AFAB}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC5644DA-75FE-4544-9DFC-5B423607EC11}
+	EndGlobalSection
+EndGlobal

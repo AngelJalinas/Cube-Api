@@ -1,0 +1,192 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f378a4da-f155-4a2e-b5c1-0e8d712c53ef" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Paquetes</ID>
+  <Name>Paquetes</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2943" scrolltop="-4985" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9779" y="13716" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Paquetes" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3852" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000c0f0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Paquetes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2943</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4985</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a2e70f2c-dba8-4580-bb8d-63f660150df0">
+    <DataSourceViewID>Paradise DW</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b45b362f-db04-4df9-a5cd-0772ca7d4cb9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="612c0aa8-7df5-4c74-9499-2bcb300e179b">
+      <ID>Paquete ID</ID>
+      <Name>Paquete ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2680b04e-3646-4f86-a505-09f65f40e9d6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7946901-53f0-4dea-a2e7-b49a58178d4a">
+            <TableID>dbo_Dim_Paquetes</TableID>
+            <ColumnID>Paquete_x0020_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ba4b6239-45d3-4767-af2a-5a5a2d8d855b">
+          <AttributeID>Nombre Paquete</AttributeID>
+          <Name>Nombre Paquete</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="23efbda3-990e-4a38-b9ab-40e9003b6802">
+          <AttributeID>Descripcion Paquete</AttributeID>
+          <Name>Descripcion Paquete</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="03e3d5ea-8ee4-4699-835f-a6c368dc5d7c">
+          <AttributeID>Precio Paquete</AttributeID>
+          <Name>Precio Paquete</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cfa8402b-ef45-4cef-9480-9e1bb88e8b9b">
+      <ID>Nombre Paquete</ID>
+      <Name>Nombre Paquete</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="04c35d7a-bf69-40d1-9748-5bfcef3023b3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d29fa9d-95cd-4051-a523-d98296846d73">
+            <TableID>dbo_Dim_Paquetes</TableID>
+            <ColumnID>Nombre_x0020_Paquete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78a5e7e8-7eb7-4242-bb81-565f4b4dca5e">
+      <ID>Descripcion Paquete</ID>
+      <Name>Descripcion Paquete</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="52a11aaf-172f-48ee-8ae4-41ea37d8238e">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="29e70a8d-5675-46e5-bbb3-8f273645bf0e">
+            <TableID>dbo_Dim_Paquetes</TableID>
+            <ColumnID>Descripcion_x0020_Paquete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e5cacc39-b369-4a82-8783-cbb2dee50a3d">
+      <ID>Precio Paquete</ID>
+      <Name>Precio Paquete</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2f87cf49-e3a8-45fa-ae0b-fbfc06985f46">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="64e8b029-b089-4ead-b470-ad0fa87c15aa">
+            <TableID>dbo_Dim_Paquetes</TableID>
+            <ColumnID>Precio_x0020_Paquete</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="6844f4a6-06f9-42d0-b03e-52fe9c574cf7">
+      <ID>Jerarquía</ID>
+      <Name>Jerarquía</Name>
+      <Levels>
+        <Level dwd:design-time-name="a7269d5c-8368-41d1-90cc-71491cdcd1bd">
+          <ID>Paquete ID</ID>
+          <Name>Paquete ID</Name>
+          <SourceAttributeID>Paquete ID</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f1a0119e-d379-4ba9-acd1-af28b25c5f4b">
+          <ID>Nombre Paquete</ID>
+          <Name>Nombre Paquete</Name>
+          <SourceAttributeID>Nombre Paquete</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f3a62a4f-eb30-44e4-9a8c-b029cc3815ea">
+          <ID>Descripcion Paquete</ID>
+          <Name>Descripcion Paquete</Name>
+          <SourceAttributeID>Descripcion Paquete</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b9c61b22-b8c8-4ef8-8ce7-c656ae7282c1">
+          <ID>Precio Paquete</ID>
+          <Name>Precio Paquete</Name>
+          <SourceAttributeID>Precio Paquete</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

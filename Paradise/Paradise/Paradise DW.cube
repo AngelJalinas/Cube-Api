@@ -1,0 +1,374 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b61df0e6-9856-4291-b74b-29eaaac3a8de" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Paradise DW</ID>
+  <Name>Paradise DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e49ca0a3-141d-4788-a492-7aa125ff8db0">
+      <ID>Fact Actividade Hotel</ID>
+      <Name>Fact Actividade Hotel</Name>
+      <DimensionID>Fact Actividade Hotel</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="990c98df-02fb-4941-be49-05a52f2ce013">
+          <AttributeID>Source Reserva Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1afe80ff-4e61-43b3-b90f-ab0594d44df4">
+      <ID>Paquetes</ID>
+      <Name>Paquetes</Name>
+      <DimensionID>Paquetes</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="71c39abe-31e7-493e-b43e-7913fd6e18cb">
+          <AttributeID>Paquete ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6b58188e-1213-4f22-a764-c6f08f3327f5">
+          <AttributeID>Nombre Paquete</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1317ae9b-1a90-45ca-aaff-34b912a529dc">
+          <AttributeID>Descripcion Paquete</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3bd4d28d-fb83-4db8-be71-809d6423308d">
+          <AttributeID>Precio Paquete</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="2dce0e37-4a16-46c7-883c-c7cb086c31f7">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="82d40c3a-12db-4181-af7c-aa4b25ed07c3">
+      <ID>Habitaciones</ID>
+      <Name>Habitaciones</Name>
+      <DimensionID>Habitaciones</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9bc69a48-43be-4646-ae91-7b67cf5a589d">
+          <AttributeID>Habitaciones ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9222735-030b-4427-af11-c0ef1cdb3abf">
+          <AttributeID>Tipo Habitacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8db7657e-1370-4046-9886-83c579fffa7d">
+          <AttributeID>Capacidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="097a9cca-137d-496c-b169-44df005a79fb">
+          <AttributeID>Precio Noche</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0deae948-2612-4c1e-a211-85b5d4d94032">
+          <AttributeID>Disponibilidad</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="5761d53e-5c2c-42c2-b34a-d24edb1f512c">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="d9e7402d-45c5-4156-8eeb-0716ecf7c63b">
+      <ID>Intermediarios</ID>
+      <Name>Intermediarios</Name>
+      <DimensionID>Intermediarios</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="80c094c9-f58b-41d0-a831-b0a0a8118847">
+          <AttributeID>Intermediario ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f45b4906-ec0c-4717-82bc-b4fd8128dd6f">
+          <AttributeID>Nombre Intermediario</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="78085ea1-95c1-46bd-b585-dfb63f662c58">
+          <AttributeID>Tipo Intermediario</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="805bc48b-5647-416c-813d-482ba9d61ab3">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="5e061407-86ee-451c-a322-e409f5d7e819">
+      <ID>Fecha</ID>
+      <Name>Fecha</Name>
+      <DimensionID>Fecha</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="edace7c8-05a4-47b8-b447-415c6826f811">
+          <AttributeID>Fecha ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f9d84e56-329b-4943-aa58-9b9928679ba9">
+          <AttributeID>Fecha Reservacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="08f647fe-7637-4226-8252-a3c6a052b6d1">
+          <AttributeID>Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f1942f8a-c3e3-45d9-9e06-4d5a3f388d32">
+          <AttributeID>Nombre Dia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="394fac35-2fac-4772-a129-99b7d3e32fcb">
+          <AttributeID>Num Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bcf62bfa-39df-4999-88b2-062545500eef">
+          <AttributeID>Nombre Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="694f0703-0b9c-4333-b275-394e4be99178">
+          <AttributeID>Anio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="551cfca0-94f2-41b0-b149-897124e1cd2e">
+          <AttributeID>Temporada</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c1bcf36-a254-4e80-88f7-afebcf130cf2">
+          <AttributeID>Festividad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1273ba2-e26a-4b92-9e8a-416452a8cceb">
+          <AttributeID>Periodo</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="934b2b62-45c5-4d4b-9073-ec0507177daf">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="f629777e-e2a8-4c7e-94f1-0cdc3329e6aa">
+      <ID>Cliente</ID>
+      <Name>Cliente</Name>
+      <DimensionID>Cliente</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e57dfea9-db69-4f79-b6d2-c0128856ac3d">
+          <AttributeID>Clientes ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da8fa7ee-f4e5-4f3f-9326-ebce7f9b5b4e">
+          <AttributeID>Nombre Clientes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2cb4dbfc-9739-441d-a2b6-a8b998d2dfaf">
+          <AttributeID>Apellidos Clientes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="483d9ba6-2c88-4f54-84e2-40a04df2889c">
+          <AttributeID>Nacionalidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1764060b-bc0c-4a7e-9cc6-a022f76aa8c8">
+          <AttributeID>Tipo Cliente</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1a2aaf6e-8264-46a7-b895-69e160a0da31">
+          <AttributeID>Metodo Reservacion</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="d38c8c6e-63a9-4672-b04b-aa3a925c2438">
+          <HierarchyID>Jerarquía</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="cd69e34d-56a9-4b27-9685-986fe78a534e">
+      <ID>Fact Actividade Hotel</ID>
+      <Name>Fact Actividade Hotel</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="c8998836-e3ca-4459-8915-41bbdf2500cf">
+          <ID>Precio Noche</ID>
+          <Name>Precio Noche</Name>
+          <Source dwd:design-time-name="a92b18fd-3f38-4577-89db-b024896c6ea7">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="884ab061-efb7-495d-9b6b-884522ff7342">
+              <TableID>dbo_Fact_ActividadeHotel</TableID>
+              <ColumnID>Precio_x0020_Noche</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="11747c93-361d-437f-ba14-215834b2b428">
+          <ID>Precio Paquete</ID>
+          <Name>Precio Paquete</Name>
+          <Source dwd:design-time-name="8f157b55-2bab-4526-8649-3dee0318ec72">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="08869120-7d12-4861-8f29-ab68cd47b5d0">
+              <TableID>dbo_Fact_ActividadeHotel</TableID>
+              <ColumnID>Precio_x0020_Paquete</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fc355d31-e81f-447b-abce-2d983a83f700">
+          <ID>Dias Ocupacion</ID>
+          <Name>Dias Ocupacion</Name>
+          <Source dwd:design-time-name="6272e3d6-af3e-4f6f-8e92-0cf298697fb1">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4a5532ed-2be3-42d1-a1c6-e3834ae9d2a0">
+              <TableID>dbo_Fact_ActividadeHotel</TableID>
+              <ColumnID>Dias_x0020_Ocupacion</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="00766869-b7a2-48b8-af50-71601c302c2d">
+          <ID>Recuento Fact Actividade Hotel</ID>
+          <Name>Recuento Fact Actividade Hotel</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7b1a37c8-04b3-4e4a-8697-c54fbc10c838">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e60665f0-7c54-4a71-a972-82220c679723">
+              <TableID>dbo_Fact_ActividadeHotel</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="6e6a4e1b-e448-4e6f-9bfb-3a914f1971f9">
+          <CubeDimensionID>Fact Actividade Hotel</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8f34e733-7391-45b5-8b34-b3d438e6699a">
+              <AttributeID>Source Reserva Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="463e63bd-0325-42a0-ae63-2d1e09de1102">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ff1e025e-414f-4630-8f60-3b1a906df01b">
+                    <TableID>dbo_Fact_ActividadeHotel</TableID>
+                    <ColumnID>_Source_x0020_Reserva_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bfb617c8-47d2-4685-8e59-ae2494bc5a3e">
+          <CubeDimensionID>Cliente</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d37aab4d-b56c-454f-806e-2e6753629c2b">
+              <AttributeID>Clientes ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="69ebfa85-9a7d-4b4d-b5d3-d61909e7ec34">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="21cb5e71-9d5f-43c1-a85d-4cd73940e483">
+                    <TableID>dbo_Fact_ActividadeHotel</TableID>
+                    <ColumnID>Clientes_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e7d281f5-a75f-4f40-8027-c73fa46781b0">
+          <CubeDimensionID>Paquetes</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d337d663-1452-4ee7-a8c5-3686cd664711">
+              <AttributeID>Paquete ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e8723a49-f632-40e6-b993-fc6b512c01c3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5694b03c-4906-44b1-bbb6-f8d5fb328b7f">
+                    <TableID>dbo_Fact_ActividadeHotel</TableID>
+                    <ColumnID>Paquetes_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="27f84d46-7028-4285-a295-b8636e3b74d0">
+          <CubeDimensionID>Habitaciones</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ad08ccad-8430-4fe2-9bf7-c8f9094fd839">
+              <AttributeID>Habitaciones ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b1a0d54e-cf80-44f3-9c08-d6b0bee034d9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac404f04-7ff1-496e-946e-b7921d388a7f">
+                    <TableID>dbo_Fact_ActividadeHotel</TableID>
+                    <ColumnID>Habitaciones_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7079ff27-f598-443c-a42a-17c02956f7dd">
+          <CubeDimensionID>Intermediarios</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f971c32c-80ad-4db8-9a24-7a9211774c10">
+              <AttributeID>Intermediario ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="60aee540-fce3-4cef-829a-99f94a776827">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f09a5b88-a3db-49fe-b643-7521d5898ee1">
+                    <TableID>dbo_Fact_ActividadeHotel</TableID>
+                    <ColumnID>Intermediarios_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a2e2e4bc-1f54-47f1-aa90-d636a5e5c0a4">
+          <CubeDimensionID>Fecha</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9d06e139-1c7e-405e-a202-a0e80ce1bb89">
+              <AttributeID>Fecha ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0c696c5b-669e-4e8e-8424-2539e96111c1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="144c0754-77b7-41e0-87ab-68fb6d246771">
+                    <TableID>dbo_Fact_ActividadeHotel</TableID>
+                    <ColumnID>Fecha_x0020_Key</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="987559f0-34ee-49e2-a7e9-1de591ee8d10">
+    <DataSourceViewID>Paradise DW</DataSourceViewID>
+  </Source>
+</Cube>
