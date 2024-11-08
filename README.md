@@ -1,6 +1,6 @@
 # API de Exploración Multidimensional
 
-Esta API permite la exploración de datos multidimensionales conectándose a una base de datos en SQL Server Analysis Services (SSAS). A través de distintos endpoints, los usuarios pueden realizar consultas y explorar los datos estructurados en un modelo multidimensional. La API está diseñada para ser utilizada tanto en Visual Studio como en SQL Server Management Studio.
+Esta API nos permite la exploración de datos multidimensionales conectandonos a una base de datos en SQL Server, Analysis Services (SSAS). A través de distintos endpoints, como usuarios podemos realizar consultas y explorar los datos estructurados en un modelo multidimensional. La exploraciión del cubo se puede ejecutar tanto en Visual Studio como en SQL Server Management Studio.
 
 ## Tecnologías y Extensiones Utilizadas
 
